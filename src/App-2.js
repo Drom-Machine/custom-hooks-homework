@@ -63,7 +63,7 @@ function DynamicHooksObjectFormat(initialState) {
             onSubmit={handleOnSubmit}
             >
             <div>
-            <input
+            <input //-------------------------------------- username field
                 type="text"
                 name="username"
                 value={usernameValue}
@@ -74,7 +74,7 @@ function DynamicHooksObjectFormat(initialState) {
             </div>
 
             <div>
-            <input
+            <input //-------------------------------------- email field
                 type="email"
                 name="email"
                 value={emailValue}
@@ -84,7 +84,7 @@ function DynamicHooksObjectFormat(initialState) {
             />
             </div>
             <div>
-            <input
+            <input //-------------------------------------- password field
                 type="password"
                 name="password"
                 value={passwordValue}
@@ -94,7 +94,7 @@ function DynamicHooksObjectFormat(initialState) {
             />
             </div>
             <div>
-            <button 
+            <button //-------------------------------------- submit button
                 type="submit"
                 class="text-center sm:text-left p-3 cursor-pointer"
                     > Submit

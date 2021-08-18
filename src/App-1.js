@@ -44,7 +44,6 @@ function App1() {
         <>
             <div 
                 className="App"
-            
             >
             <form 
                 class="
@@ -58,7 +57,7 @@ function App1() {
                 onSubmit={handleOnSubmit}
                 >
                 <div>
-                    <input
+                    <input //-------------------------------------- username field
                         type="text"
                         name="username"
                         value={username.value}
@@ -69,7 +68,7 @@ function App1() {
                 </div>
 
                 <div>
-                    <input
+                    <input //-------------------------------------- email field
                         type="email"
                         name="email"
                         value={email.value}
@@ -80,7 +79,7 @@ function App1() {
                 </div>
                 
                 <div>
-                    <input
+                    <input //-------------------------------------- password field
                         type="password"
                         name="password"
                         value={password.value}
@@ -90,7 +89,7 @@ function App1() {
                     />
                 </div>
                 <div>
-                    <button 
+                    <button //-------------------------------------- submit button
                     type="submit"
                     class="text-center sm:text-left p-3 cursor-pointer"
                         > Submit
